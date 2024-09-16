@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="fastRequestCurrentParamGroup">
+    <option name="bodyParamMap">
+      <map>
+        <entry key="dto">
+          <value>
+            <Object />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="className" value="com.hrms.web.controller.JobController" />
+    <option name="filePath" value="" />
+    <option name="method" value="updateJob" />
+    <option name="methodType" value="PATCH" />
+    <option name="module" value="web" />
+    <option name="originUrl" value="/api/job/{id}" />
+    <option name="pathParamMap">
+      <map>
+        <entry key="id">
+          <value>
+            <Object />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="responseParamMap">
+      <map>
+        <entry key="return">
+          <value>
+            <Object />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="returnDocument" value="{&quot;success&quot;:&quot;操作是否成功&quot;,&quot;msg&quot;:&quot;返回信息&quot;,&quot;data&quot;:{}}" />
+    <option name="url" value="/api/job/1" />
+  </component>
+</project>
