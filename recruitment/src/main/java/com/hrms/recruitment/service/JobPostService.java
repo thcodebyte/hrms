@@ -49,4 +49,12 @@ public class JobPostService {
         return jobPostRepository.findById(jobPostId)
                 .orElseThrow(InvalidOperationException::new);
     }
+
+    public boolean toggleActive(long id) {
+        JobPost jobPost = jobPostRepository.findById(id)
+               .orElseThrow(InvalidOperationException::new);
+        jobPost.setActive(!jobPost.isActive());
+        JobPost saved = jobPostRepository.save(jobPost);
+        return saved.isActive();
+    }
 }

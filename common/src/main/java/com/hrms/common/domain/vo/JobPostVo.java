@@ -22,17 +22,14 @@ public class JobPostVo extends BaseVo{
 
     private EduLevel educationLevel;
 
-    private String requirements;
-
     private String description;
 
     private boolean internship;
 
     private String internshipDuration;
 
-    private LocalDate postDate = LocalDate.now();
+    private LocalDate postDate;
 
-    private LocalDate deadline;
 
-    private boolean active = true;
+    private boolean active;
 }

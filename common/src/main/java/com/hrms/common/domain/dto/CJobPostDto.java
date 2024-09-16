@@ -27,4 +27,5 @@ public class CJobPostDto {
     private boolean internship;
 
     private String internshipDuration;
+
 }

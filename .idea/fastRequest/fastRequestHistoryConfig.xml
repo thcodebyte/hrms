@@ -4,6 +4,84 @@
     <option name="historyList">
       <list>
         <ResponseHistory>
+          <option name="className" value="com.hrms.web.controller.JobPostController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="web" />
+          <option name="method" value="publishJobPost" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;jobId&quot;: 1,&#10;  &quot;title&quot;: &quot;急招前端实习&quot;,&#10;  &quot;location&quot;: &quot;北京&quot;,&#10;  &quot;salaryRange&quot;: &quot;3K-5K&quot;,&#10;  &quot;experienceRange&quot;: null,&#10;  &quot;educationLevel&quot;: &quot;UNDERGRADUATE&quot;,&#10;  &quot;requirements&quot;: null,&#10;  &quot;description&quot;: &quot;急招!! 前端实习生，岗位要求：1. 精通HTML、CSS、JavaScript、jQuery等前端技术；2. 有扎实的计算机基础，包括数据结构、算法、操作系统、计算机网络等；3. 了解Node.js、React、Vue等前端框架；4. 了解前端工程化、自动化工具，如Webpack、Gulp、Grunt等；5. 了解前端性能优化、安全、兼容性等方面；6. 具备良好的沟通、协作能力，能承受一定的工作压力。&quot;,&#10;  &quot;internship&quot;: true,&#10;  &quot;internshipDuration&quot;: &quot;1-3月&quot;&#10;}" />
+              <option name="className" value="com.hrms.web.controller.JobPostController" />
+              <option name="jsonDocument" value="{&#10;  &quot;jobId&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;title&quot;: &quot;No comment,Value =title_syyfb&quot;,&#10;  &quot;location&quot;: &quot;No comment,Value =location_dy91h&quot;,&#10;  &quot;salaryRange&quot;: &quot;No comment,Value =salaryRange_tjy15&quot;,&#10;  &quot;experienceRange&quot;: &quot;No comment,Value =experienceRange_4x5q9&quot;,&#10;  &quot;educationLevel&quot;: &quot;No comment,Value =NO_REQUIREMENT&quot;,&#10;  &quot;requirements&quot;: &quot;No comment,Value =requirements_r4roj&quot;,&#10;  &quot;description&quot;: &quot;No comment,Value =description_6zpyf&quot;,&#10;  &quot;internship&quot;: &quot;No comment,Value =true&quot;,&#10;  &quot;internshipDuration&quot;: &quot;No comment,Value =internshipDuration_5wx49&quot;&#10;}" />
+              <option name="method" value="publishJobPost" />
+              <option name="methodDescription" value="publishJobPost" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/api/job-post/" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;success&quot;:&quot;操作是否成功&quot;,&quot;msg&quot;:&quot;返回信息&quot;,&quot;data&quot;:{}}" />
+              <option name="url" value="/api/job-post" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/api/job-post&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.4&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Content-Length: 639&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;salaryRange&quot;:&quot;3K-5K&quot;,&quot;jobId&quot;:1,&quot;internshipDuration&quot;:&quot;1-3月&quot;,&quot;educationLevel&quot;:&quot;UNDERGRADUATE&quot;,&quot;description&quot;:&quot;急招!! 前端实习生，岗位要求：1. 精通HTML、CSS、JavaScript、jQuery等前端技术；2. 有扎实的计算机基础，包括数据结构、算法、操作系统、计算机网络等；3. 了解Node.js、React、Vue等前端框架；4. 了解前端工程化、自动化工具，如Webpack、Gulp、Grunt等；5. 了解前端性能优化、安全、兼容性等方面；6. 具备良好的沟通、协作能力，能承受一定的工作压力。&quot;,&quot;location&quot;:&quot;北京&quot;,&quot;title&quot;:&quot;急招前端实习&quot;,&quot;internship&quot;:true}&#13;&#10;" />
+          <option name="response" value="{&quot;success&quot;:true,&quot;msg&quot;:&quot;创建成功&quot;,&quot;data&quot;:{&quot;id&quot;:2,&quot;createdAt&quot;:&quot;2024-09-16 17:46:56&quot;,&quot;job&quot;:{&quot;id&quot;:1,&quot;createdAt&quot;:&quot;2024-09-14 11:57:09&quot;,&quot;name&quot;:&quot;前端实习生&quot;,&quot;description&quot;:&quot;负责前端数据的展示&quot;},&quot;title&quot;:&quot;急招前端实习&quot;,&quot;location&quot;:&quot;北京&quot;,&quot;salaryRange&quot;:&quot;3K-5K&quot;,&quot;experienceRange&quot;:null,&quot;educationLevel&quot;:&quot;UNDERGRADUATE&quot;,&quot;requirements&quot;:null,&quot;description&quot;:&quot;急招!! 前端实习生，岗位要求：1. 精通HTML、CSS、JavaScript、jQuery等前端技术；2. 有扎实的计算机基础，包括数据结构、算法、操作系统、计算机网络等；3. 了解Node.js、React、Vue等前端框架；4. 了解前端工程化、自动化工具，如Webpack、Gulp、Grunt等；5. 了解前端性能优化、安全、兼容性等方面；6. 具备良好的沟通、协作能力，能承受一定的工作压力。&quot;,&quot;internship&quot;:true,&quot;internshipDuration&quot;:&quot;1-3月&quot;,&quot;postDate&quot;:&quot;2024-09-16&quot;,&quot;deadline&quot;:null,&quot;active&quot;:true}}" />
+          <option name="url" value="/api/job-post" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.hrms.web.controller.JobPostController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="web" />
+          <option name="method" value="getJobPostList" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.hrms.web.controller.JobPostController" />
+              <option name="method" value="getJobPostList" />
+              <option name="methodDescription" value="getJobPostList" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/api/job-post/" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;success&quot;:&quot;操作是否成功&quot;,&quot;msg&quot;:&quot;返回信息&quot;,&quot;data&quot;:{}}" />
+              <option name="url" value="/api/job-post" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/api/job-post&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.4&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;success&quot;:true,&quot;msg&quot;:&quot;请求成功&quot;,&quot;data&quot;:[{&quot;id&quot;:1,&quot;createdAt&quot;:&quot;2024-09-14 11:59:45&quot;,&quot;job&quot;:null,&quot;title&quot;:&quot;title_cw8q3&quot;,&quot;location&quot;:&quot;location_yxltt&quot;,&quot;salaryRange&quot;:&quot;salaryRange_3wfxv&quot;,&quot;experienceRange&quot;:&quot;experienceRange_m3xjh&quot;,&quot;educationLevel&quot;:&quot;NO_REQUIREMENT&quot;,&quot;requirements&quot;:&quot;requirements_ja49a&quot;,&quot;description&quot;:&quot;description_91esr&quot;,&quot;internship&quot;:true,&quot;internshipDuration&quot;:&quot;internshipDuration_kuou1&quot;,&quot;postDate&quot;:&quot;2024-09-14&quot;,&quot;deadline&quot;:null,&quot;active&quot;:true}]}" />
+          <option name="url" value="/api/job-post" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.hrms.web.controller.JobPostController" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="local" />
+          <option name="enableProject" value="web" />
+          <option name="method" value="getJobPostList" />
+          <option name="methodType" value="GET" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="className" value="com.hrms.web.controller.JobPostController" />
+              <option name="method" value="getJobPostList" />
+              <option name="methodDescription" value="getJobPostList" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/api/job-post/" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&quot;success&quot;:&quot;操作是否成功&quot;,&quot;msg&quot;:&quot;返回信息&quot;,&quot;data&quot;:{}}" />
+              <option name="url" value="/api/job-post" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:8080/api/job-post&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.4&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
+          <option name="response" value="{&quot;success&quot;:true,&quot;msg&quot;:&quot;请求成功&quot;,&quot;data&quot;:[{&quot;id&quot;:1,&quot;createdAt&quot;:&quot;2024-09-14 11:59:45&quot;,&quot;job&quot;:null,&quot;title&quot;:&quot;title_cw8q3&quot;,&quot;location&quot;:&quot;location_yxltt&quot;,&quot;salaryRange&quot;:&quot;salaryRange_3wfxv&quot;,&quot;experienceRange&quot;:&quot;experienceRange_m3xjh&quot;,&quot;educationLevel&quot;:&quot;NO_REQUIREMENT&quot;,&quot;requirements&quot;:&quot;requirements_ja49a&quot;,&quot;description&quot;:&quot;description_91esr&quot;,&quot;internship&quot;:true,&quot;internshipDuration&quot;:&quot;internshipDuration_kuou1&quot;,&quot;postDate&quot;:&quot;2024-09-14&quot;,&quot;deadline&quot;:null,&quot;active&quot;:true}]}" />
+          <option name="url" value="/api/job-post" />
+        </ResponseHistory>
+        <ResponseHistory>
           <option name="className" value="com.hrms.web.controller.JobController" />
           <option name="code" value="200" />
           <option name="enableEnv" value="local" />
@@ -443,84 +521,6 @@
           </option>
           <option name="requestInfo" value="Request Url: http://localhost:8080/api/job-post&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.4&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Content-Length: 307&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;salaryRange&quot;:&quot;salaryRange_3wfxv&quot;,&quot;jobId&quot;:1,&quot;requirements&quot;:&quot;requirements_ja49a&quot;,&quot;internshipDuration&quot;:&quot;internshipDuration_kuou1&quot;,&quot;educationLevel&quot;:&quot;NO_REQUIREMENT&quot;,&quot;description&quot;:&quot;description_91esr&quot;,&quot;location&quot;:&quot;location_yxltt&quot;,&quot;title&quot;:&quot;title_cw8q3&quot;,&quot;experienceRange&quot;:&quot;experienceRange_m3xjh&quot;,&quot;internship&quot;:true}&#13;&#10;" />
           <option name="response" value="{&quot;timestamp&quot;:&quot;2024-09-14 11:59:17&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;path&quot;:&quot;/api/job-post&quot;}" />
-          <option name="url" value="/api/job-post" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="com.hrms.web.controller.JobPostController" />
-          <option name="code" value="500" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="web" />
-          <option name="method" value="publishJobPost" />
-          <option name="methodType" value="POST" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="bodyKeyValueListJson" value="{&#10;  &quot;jobId&quot;: 1,&#10;  &quot;title&quot;: &quot;title_77upc&quot;,&#10;  &quot;location&quot;: &quot;location_zed4o&quot;,&#10;  &quot;salaryRange&quot;: &quot;salaryRange_1g6ny&quot;,&#10;  &quot;experienceRange&quot;: &quot;experienceRange_sqhf6&quot;,&#10;  &quot;educationLevel&quot;: &quot;educationLevel_r5ubm&quot;,&#10;  &quot;requirements&quot;: &quot;requirements_a5akk&quot;,&#10;  &quot;description&quot;: &quot;description_4ovdt&quot;,&#10;  &quot;internship&quot;: true,&#10;  &quot;internshipDuration&quot;: &quot;internshipDuration_nzeh5&quot;&#10;}" />
-              <option name="className" value="com.hrms.web.controller.JobPostController" />
-              <option name="jsonDocument" value="{&#10;  &quot;jobId&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;title&quot;: &quot;No comment,Value =title_77upc&quot;,&#10;  &quot;location&quot;: &quot;No comment,Value =location_zed4o&quot;,&#10;  &quot;salaryRange&quot;: &quot;No comment,Value =salaryRange_1g6ny&quot;,&#10;  &quot;experienceRange&quot;: &quot;No comment,Value =experienceRange_sqhf6&quot;,&#10;  &quot;educationLevel&quot;: &quot;No comment,Value =educationLevel_r5ubm&quot;,&#10;  &quot;requirements&quot;: &quot;No comment,Value =requirements_a5akk&quot;,&#10;  &quot;description&quot;: &quot;No comment,Value =description_4ovdt&quot;,&#10;  &quot;internship&quot;: &quot;No comment,Value =true&quot;,&#10;  &quot;internshipDuration&quot;: &quot;No comment,Value =internshipDuration_nzeh5&quot;&#10;}" />
-              <option name="method" value="publishJobPost" />
-              <option name="methodDescription" value="publishJobPost" />
-              <option name="methodType" value="POST" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/api/job-post/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;success&quot;:&quot;操作是否成功&quot;,&quot;msg&quot;:&quot;返回信息&quot;,&quot;data&quot;:{}}" />
-              <option name="url" value="/api/job-post" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/api/job-post&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.4&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Content-Length: 313&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&quot;salaryRange&quot;:&quot;salaryRange_1g6ny&quot;,&quot;jobId&quot;:1,&quot;requirements&quot;:&quot;requirements_a5akk&quot;,&quot;internshipDuration&quot;:&quot;internshipDuration_nzeh5&quot;,&quot;educationLevel&quot;:&quot;educationLevel_r5ubm&quot;,&quot;description&quot;:&quot;description_4ovdt&quot;,&quot;location&quot;:&quot;location_zed4o&quot;,&quot;title&quot;:&quot;title_77upc&quot;,&quot;experienceRange&quot;:&quot;experienceRange_sqhf6&quot;,&quot;internship&quot;:true}&#13;&#10;" />
-          <option name="response" value="{&quot;timestamp&quot;:&quot;2024-09-14 11:58:48&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;path&quot;:&quot;/api/job-post&quot;}" />
-          <option name="url" value="/api/job-post" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="com.hrms.web.controller.JobPostController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="web" />
-          <option name="method" value="getJobPostList" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="com.hrms.web.controller.JobPostController" />
-              <option name="method" value="getJobPostList" />
-              <option name="methodDescription" value="getJobPostList" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/api/job-post/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;success&quot;:&quot;操作是否成功&quot;,&quot;msg&quot;:&quot;返回信息&quot;,&quot;data&quot;:{}}" />
-              <option name="url" value="/api/job-post" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/api/job-post&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.4&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="{&quot;success&quot;:true,&quot;msg&quot;:&quot;请求成功&quot;,&quot;data&quot;:[]}" />
-          <option name="url" value="/api/job-post" />
-        </ResponseHistory>
-        <ResponseHistory>
-          <option name="className" value="com.hrms.web.controller.JobPostController" />
-          <option name="code" value="200" />
-          <option name="enableEnv" value="local" />
-          <option name="enableProject" value="web" />
-          <option name="method" value="getJobPostList" />
-          <option name="methodType" value="GET" />
-          <option name="paramGroup">
-            <ParamGroupCollection>
-              <option name="className" value="com.hrms.web.controller.JobPostController" />
-              <option name="method" value="getJobPostList" />
-              <option name="methodDescription" value="getJobPostList" />
-              <option name="multipartKeyValueListJson" value="[]" />
-              <option name="originUrl" value="/api/job-post/" />
-              <option name="pathParamsKeyValueListJson" value="[]" />
-              <option name="returnDocument" value="{&quot;success&quot;:&quot;操作是否成功&quot;,&quot;msg&quot;:&quot;返回信息&quot;,&quot;data&quot;:{}}" />
-              <option name="url" value="/api/job-post" />
-              <option name="urlEncodedKeyValueListJson" value="[]" />
-              <option name="urlParamsKeyValueListJson" value="[]" />
-            </ParamGroupCollection>
-          </option>
-          <option name="requestInfo" value="Request Url: http://localhost:8080/api/job-post&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Fast Request/2024.1.4&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;Request Body: &#13;&#10;    null&#13;&#10;" />
-          <option name="response" value="{&quot;success&quot;:true,&quot;msg&quot;:&quot;请求成功&quot;,&quot;data&quot;:null}" />
           <option name="url" value="/api/job-post" />
         </ResponseHistory>
       </list>

@@ -32,10 +32,8 @@ public class JobService {
     }
 
     public JobVo updateJob(long jobId, CJobDto dto) {
-        Job job = jobRepository.findById(jobId)
-                .orElseThrow(InvalidOperationException::new);
-        BeanUtil.copyProperties(dto, job);
-        return convertToJobVo(jobRepository.save(job));
+        Job updated = jobRepository.update(jobId, dto);
+        return convertToJobVo(updated);
     }
 
     public Job getById(long jobId) {

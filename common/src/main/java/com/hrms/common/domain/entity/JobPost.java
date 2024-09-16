@@ -33,8 +33,6 @@ public class JobPost extends BaseEntity{
 
     private EduLevel educationLevel;
 
-    private String requirements;
-
     @Lob
     @Column(columnDefinition = "TEXT")
     private String description;
@@ -45,8 +43,6 @@ public class JobPost extends BaseEntity{
 
     @Builder.Default
     private LocalDate postDate = LocalDate.now();
-
-    private LocalDate deadline;
 
     @Builder.Default
     private boolean active = true;

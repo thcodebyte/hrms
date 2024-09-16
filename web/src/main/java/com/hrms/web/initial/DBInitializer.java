@@ -68,11 +68,9 @@ public class DBInitializer implements CommandLineRunner {
                     .salaryRange("4k-6k")
                     .experienceRange("1-2年")
                     .educationLevel(EduLevel.UNDERGRADUATE)
-                    .requirements("精通Java开发语言，包括Java基础语法、集合框架、多线程、JVM等。")
                     .internship(true)
                     .internshipDuration("3-6个月")
                     .postDate(LocalDate.now())
-                    .deadline(null)
                     .build();
             jobPostRepository.save(jobPost);
         }

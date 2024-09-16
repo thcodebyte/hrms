@@ -30,4 +30,9 @@ public class JobPostController {
         JobPostVo jobPostVo = jobPostService.updateJobPost(id, dto);
         return R.updated(jobPostVo);
     }
+    @PatchMapping("/{id}")
+    public R<?> toggleActive(@PathVariable("id") long id) {
+        boolean active = jobPostService.toggleActive(id);
+        return R.updated(active ? "已上架" : "已下架", active);
+    }
 }

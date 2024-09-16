@@ -27,7 +27,7 @@ public class JobController {
         return R.ok(jobList);
     }
 
-    @PatchMapping("/{id}")
+    @PostMapping("/{id}")
     public R<?> updateJob(@PathVariable("id") long id,
                           @RequestBody CJobDto dto) {
         JobVo jobVo = jobService.updateJob(id, dto);
